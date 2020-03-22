@@ -12,11 +12,11 @@ namespace ProyectoFinalAdmin.Models
         {
         }
 
-        public virtual DbSet<Documento> Documento { get; set; }
-        public virtual DbSet<Login> Login { get; set; }
-        public virtual DbSet<Personal> Personal { get; set; }
+        public virtual DbSet<Documento> Documentos { get; set; }
+        public virtual DbSet<Login> Logins { get; set; }
+        public virtual DbSet<Personal> Personals { get; set; }
         public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
-        public virtual DbSet<Usuario> Usuario { get; set; }
+        public virtual DbSet<Usuario> Usuarios { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

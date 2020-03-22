@@ -22,9 +22,9 @@ namespace ProyectoFinalAdmin.Models
         [StringLength(50)]
         public string Version_Doc { get; set; }
 
-        public DateTime Fecha_Creacion { get; set; }
+        public DateTime FechaCreacion { get; set; }
 
-        public DateTime Fecha_Modificacion { get; set; }
+        public DateTime FechaModificacion { get; set; }
 
         public virtual Login Login { get; set; }
     }
